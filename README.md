@@ -35,4 +35,33 @@ In addition to the implemented ml model we also provide visualized results of ou
 
 ![roc-auc curve](https://github.com/alexdrk14/TwitterSuspension/blob/main/plots/roc_curves.png?raw=true)
 
+# Additional content analysis
+We manage to analyze the content of the collected tweets in terms of the discussion topics. Examples of detected discussion topics from suspended accounts. Sensitive metadata like account, mention, hashtag, and URL info is removed for privacy reasons.
 
+|   Category |  Text |
+|:----------:|:-----:|
+| Crypto/NFT/Spam |  Knock knock knock... Anybody is there? Your lucky door knocking ; RETWEET TAG 3 friend  1000\$ #Bitcoin #Airdrop #StopWar #UkraineRussia #StopRussia #Crypto #NFTs #NATO #worldwar3 #PrayingForUkraine #Putin #Giveaway #ETH #cryptocurrency| 
+| Spam/Advertisment | How to find over 100 ways to earn money with URL via COMPANY #Ukraine #RussianArmy #AssassinsCreed #KingCharlesIII #QueenElizabeth #earthquake #USOpen #QueenElizabethII |
+| Military | #Ukraine: The complete destruction of a Russian tank by a Stugna\-P anti\-tank guided missile. URL|
+| Content injection | #Ukraine needs weapons and humanitarian assistance to defend against #Putin. Russian troops shoot a nuclear power plant. Stop innocent civilian deaths. People around the world ask NATO to close the airspace over Ukraine. MENTION, provide #SafeAirliftUkraine |
+
+
+# Data Usage Agreement / How to Cite
+By using this dataset and source code, you agree to abide by the stipulations in the license, remain in compliance with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), and cite the following manuscript: 
+
+Authors and Paper title with arxiv_id
+BibTeX:
+```bibtex
+@article{shevtsov2023russo,
+  title={Russo-Ukrainian War: Prediction and explanation of Twitter suspension},
+  author={Shevtsov, Alexander and Antonakaki, Despoina and Lamprou, Ioannis and Kontogiorgakis, Ioannis and Pratikakis, Polyvios and Ioannidis, Sotiris},
+  journal={arXiv preprint arXiv:2306.03502},
+  year={2023}
+}
+```
+
+# Inquiries
+
+Please read through the README and the closed issues to see if your question has already been addressed first. 
+
+If you have any  questions about this dataset/analysis, please contact Alexander Shevtsov at **asevtsov[at]tuc.gr**.
