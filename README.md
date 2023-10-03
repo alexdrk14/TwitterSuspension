@@ -64,4 +64,8 @@ BibTeX:
 
 Please read through the README and the closed issues to see if your question has already been addressed first. 
 
-If you have any  questions about this dataset/analysis, please contact Alexander Shevtsov at **asevtsov[at]tuc.gr**.
+If you have any  questions about this dataset/analysis, please contact:
+ - Alexander Shevtsov at **asevtsov[at]tuc.gr**
+ - Ioannis Lamprou at **ilamprou1[at]tuc.gr**
+ - Despoina Antonakaki at **dantonakaki[at]tuc.gr**
+ - Sotiris Ioannidis at **sioannidis[at]tuc.gr**
