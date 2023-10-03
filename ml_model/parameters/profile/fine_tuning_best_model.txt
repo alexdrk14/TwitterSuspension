@@ -1,0 +1,2 @@
+{'learning_rate':0.005, 'n_estimators':1000, 'max_depth':8, 'gamma':0, 'subsample':0.7, 'colsample_bytree':0.7, 'min_child_weight':5.0, 'reg_lambda':0.1}
+with val avg f1:0.8698610921194042 and train avg f1:0.9470199847436336

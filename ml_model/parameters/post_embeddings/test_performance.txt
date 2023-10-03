@@ -1,0 +1,6 @@
+K-fold performance (avg) F1-train:0.952 ROC-AUC-train:0.987 Acc-train:0.953
+K-fold performance (avg) F1-val:0.855 ROC-AUC-val:0.926 Acc-val:0.863
+First test performance F1-train:0.944 ROC-AUC-train:0.985 Acc-train:0.945
+First test performance F1-test:0.837 ROC-AUC-test:0.913 Acc-test:0.845
+Second test performance F1-train:0.929 ROC-AUC-train:0.980 Acc-train:0.931
+Second test performance F1-test:0.000 ROC-AUC-test:0.733 Acc-test:0.500
