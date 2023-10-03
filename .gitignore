@@ -1,0 +1,4 @@
+.idea/
+ignore/*
+feature_extraction/content_features/*.pkl
+ml_model/**/*_logs.csv
