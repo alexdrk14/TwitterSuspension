@@ -21,9 +21,9 @@ In the ml_model folder we provide implementation of the machine learning pipelin
 This table presents the performance of various models measured during K-Fold Cross Validation. The performance is evaluated on the validation set, the initial test set (portion A data), and the second test set (portion B data).
 
 | Model             | Validation | Validation | Validation | Test | Test | Test | Second Test | Second Test | Second Test |
-|-------------------|:----------:|:----------:|:----------:|:----:|:----:|:----:|:-----------:|:-----------:|:-----------:|
+|:-----------------:|:----------:|:----------:|:----------:|:----:|:----:|:----:|:-----------:|:-----------:|:-----------:|
 |                   |     F1     |   ROC-AUC  |    Acc.    |  F1  |ROC-AUC| Acc. |     F1      |   ROC-AUC   |    Acc.     |
-|-------------------|:----------:|:----------:|:----------:|:----:|:----:|:----:|:-----------:|:-----------:|:-----------:|
+|:-----------------:|:----------:|:----------:|:----------:|:----:|:----:|:----:|:-----------:|:-----------:|:-----------:|
 | Profile           |   0.86     |    0.93    |    0.86    | 0.86 | 0.94 | 0.87 |    0.79     |    0.90     |    0.81     |
 | Activity Timing   |   0.67     |    0.76    |    0.70    | 0.68 | 0.77 | 0.71 |    0.45     |    0.62     |    0.58     |
 | Textual           |   0.71     |    0.82    |    0.75    | 0.72 | 0.82 | 0.75 |    0.44     |    0.63     |    0.59     |
