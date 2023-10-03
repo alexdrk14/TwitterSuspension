@@ -3,7 +3,7 @@
 In this repository we provide source code, extracted dataset and parameters described in the research paper: "Russo-Ukrainian War: Prediction and explanation of
 Twitter suspension" accepted into ASONAM 2023 conference.
 
-## Organization
+## Implementation and results
 Implementation is separated into the data folder, which contain the dataset description and link to Zenodo file sharing service where the data is available with the original split used for model train and test.
 In the feature extraction folder we provide exact implementation for the feature extraction procedure used over the collected data stored in local MongoDB. For the pricacy issues and user annonymization we provide only extracted data separated into different feature categoreis where we remove any user identifications like user ID and tweet ID.
 
