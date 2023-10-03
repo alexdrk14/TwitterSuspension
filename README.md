@@ -18,6 +18,37 @@ In the feature extraction folder we provide exact implementation for the feature
 
 
 In the ml_model folder we provide implementation of the machine learning pipeline utilized for our feature selection, model fine-tuning and final model evaluation. For each separate category of features we provide list of selected features, parameters and performance stored in ml_model/parameters path.
+This table presents the performance of various models measured during K-Fold Cross Validation. The performance is evaluated on the validation set, the initial test set (portion A data), and the second test set (portion B data).
+
+| Model             | Validation | Validation | Validation | Test | Test | Test | Second Test | Second Test | Second Test |
+|-------------------|:----------:|:----------:|:----------:|:----:|:----:|:----:|:-----------:|:-----------:|:-----------:|
+|                   |     F1     |   ROC-AUC  |    Acc.    |  F1  |ROC-AUC| Acc. |     F1      |   ROC-AUC   |    Acc.     |
+|-------------------|------------|------------|------------|------|------|------|-------------|-------------|-------------|
+| Profile           |   0.86     |    0.93    |    0.86    | 0.86 | 0.94 | 0.87 |    0.79     |    0.90     |    0.81     |
+| Activity Timing   |   0.67     |    0.76    |    0.70    | 0.68 | 0.77 | 0.71 |    0.45     |    0.62     |    0.58     |
+| Textual           |   0.71     |    0.82    |    0.75    | 0.72 | 0.82 | 0.75 |    0.44     |    0.63     |    0.59     |
+| Post Embedding    |   0.85     |    0.92    |    0.86    | 0.83 | 0.91 | 0.84 |    0.00     |    0.73     |    0.50     |
+| Graph Embedding   |   0.77     |    0.86    |    0.79    | 0.77 | 0.87 | 0.79 |    0.21     |    0.50     |    0.50     |
+| Combination       |   0.88     |    0.95    |    0.88    | 0.88 | 0.95 | 0.88 |    0.75     |    0.89     |    0.79     |
+
+
+Model & \multicolumn{3}{c|}{Validation}  & \multicolumn{3}{c|}{Test} & \multicolumn{3}{c|}{Second Test}\\
+\cline{2-10}
+ & F1 & ROC-AUC & Acc. & F1 & ROC-AUC & Acc. & F1 & ROC-AUC & Acc. \\
+\hline
+
+Profile & $\underline{0.86}$ & $\underline{0.93}$ & $\underline{0.86}$ & $\underline{0.86}$ & $\underline{0.94}$ & $\underline{0.87}$ & \boldmath{$0.79$} & \boldmath{$0.90$} & \boldmath{$0.81$} \\ \hline
+ 
+Activity timing & $0.67$ & $0.76$ & $0.70$ & $0.68$ & $0.77$ & $0.71$ & $0.45$ & $0.62$ & $0.58$ \\ \hline
+
+Textual & $0.71$ & $0.82$ & $0.75$ & $0.72$ & $0.82$ & $0.75$ & $0.44$ & $0.63$ & $0.59$ \\ \hline
+
+Post embedding & $0.85$ & $0.92$ & $0.86$ & $0.83$ & $0.91$ & $0.84$ & $0.00$ & $0.73$ & $0.50$ \\ \hline
+
+Graph embedding & $0.77$ & $0.86$ & $0.79$ & $0.77$ & $0.87$ & $0.79$ & $0.21$ & $0.50$ & $0.50$\\ \hline
+
+Combination & \boldmath{$0.88$} & \boldmath{$0.95$} & \boldmath{$0.88$} & \boldmath{$0.88$} & \boldmath{$0.95$} & \boldmath{$0.88$} & $\underline{0.75}$ & $\underline{0.89}$ & $\underline{0.79}$ \\ \hline
+
 In addition to the implemented ml model we also provide visualized results of our experiments such as roc-auc and precision vs recall curves. Furthermore, we provide the explainability of each developed models based on different feature categories.
 
 ![roc-auc curve](https://github.com/alexdrk14/TwitterSuspension/blob/main/plots/roc_curves.png?raw=true)
