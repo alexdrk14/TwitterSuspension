@@ -7,4 +7,4 @@
  - Combinational (Combination of the all extracted features)
 
 
-Extracted data is available via Zenodo file sharing service.
+Extracted data is available via Zenodo file sharing service [https://zenodo.org/record/8404034](https://zenodo.org/record/8404034).
