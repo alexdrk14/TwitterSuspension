@@ -1,4 +1,4 @@
-Data are extracted into following categories:
+## Data are extracted into following categories:
  - Profile features (characteristics of the user based on the profile object collected via Twitter API)
  - Activity timing (features based on the user activity pattern, such as highly active days of week or hours of day)
  - Textual (lingustic characteristics of the text)
@@ -7,4 +7,4 @@ Data are extracted into following categories:
  - Combinational (Combination of the all extracted features)
 
 
-Extracted data is available via Zenodo file sharing service.
+Extracted data is available via Zenodo file sharing service [https://zenodo.org/record/8404034](https://zenodo.org/record/8404034).
